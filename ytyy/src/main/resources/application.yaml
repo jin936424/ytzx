@@ -1,0 +1,16 @@
+server:
+  port: 8080
+spring:
+  datasource:
+    username: root
+    password: 1234
+    driver-class-name: com.mysql.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+    url: jdbc:mysql://101.37.124.217:3306/ytzx
+  thymeleaf:
+    mode: HTML5
+    cache: false
+    encoding: utf-8
+
+mybatis:
+  mapper-locations: classpath*:/com/haxinxi/yiti/mapper/*Mapper.xml

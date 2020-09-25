@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>学生登录</title>
+    <style>
+        body{text-align: center}
+    </style>
+    <link rel="stylesheet" href="../static/css/weui.min.css">
+    <link rel="stylesheet" href="../static/css/jquery-weui.min.css">
+</head>
+<body>
+<div class="pagemain">
+    <div class="" style="text-align: center; vertical-align: middle; font-size: 30px;"> 哈尔滨信息工程学院 </div>
+    <div class="" style="text-align: center; vertical-align: middle; font-size: 20px;"> 艺体中心场馆预约 </div>
+    <div class="" style="text-align: center; vertical-align: middle; font-family: 黑体; font-size: 20px;"> 开馆时间<br>中午 12:00 -- 12:50<br>晚 17:00 --晚 19:00<br>晚 19:00 --晚 21:00<br> </div>
+    <form class="form-horizontal  ui-sortable formtable_64082" data-listhref="" data-ride="form" role="form" id="form64082" name="table_64082" data-url="/data/data.html" action="/data/save.html" enctype="multipart/form-data" method="post" data-bv-group=".weui-cell" data-bv-container="#errorsform64082" data-bv-feedbackicons-valid="weui-icon-success" data-bv-feedbackicons-invalid="weui-icon-warn" data-bv-feedbackicons-validating="weui-icon-warn">
+        <div class="row-form clearfix ">
+            <div class="">
+                <div class="weui-cell">
+                    <div class="weui-cell__hd   "><label class="weui-label" for="458845">学生院系</label></div>
+                    <div class="weui-cell__bd"> <select name="college" class="weui-input weui-noborder" data-load="1" data-ride="select"  id="458845">
+
+                        <option value="0" data-value="0" selected="selected" data-checked="checked" data-title="请选择院系">请选择院系</option>
+
+                        <option value="1" data-value="1" data-title="商学院">商学院</option>
+
+                        <option value="2" data-value="2" data-title="软件学院">软件学院</option>
+
+                    </select> </div>
+                </div>
+                <div class="weui-cell">
+                    <div class="weui-cell__hd"><label class="weui-label  " for="763109">学生学号</label></div>
+                    <div class="weui-cell__bd"> <input type="text" placeholder="请输入学号" value="" name="stuNo" id="763109" class="weui-input  weui-noborder"> </div>
+                </div>
+                <div class="weui-cell">
+                    <div class="weui-cell__hd"><label class="weui-label  " for="497163">学生姓名</label></div>
+                    <div class="weui-cell__bd"> <input type="text" placeholder="请输入姓名" value="" name="stuName" id="497163" class="weui-input  weui-noborder"> </div>
+                </div>
+                <div class="weui-form">
+                    <div class="weui-form-item"> <button type="submit" class="weui-btn   weui-btn_primary  ">登录</button> </div>
+                </div>
+            </div>
+        </div> <input type="hidden" class="hide" name="dashboardId" value="34686"> <input type="hidden" class="hide" name="formId" value="64082"> <input type="hidden" class="hide" name="tableName" value="table_64082"> <input type="hidden" class="hide" name="id" value="">
+        <div id="errorsform64082" class="hide"></div>
+    </form>
+</div>
+<script src="../static/js/jquery.min.js"></script>
+<script src="../static/js/jquery-weui.min.js"></script>
+</body>
+</html>

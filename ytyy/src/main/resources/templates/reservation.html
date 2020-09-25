@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>场馆选择</title>
+    <link rel="stylesheet" href="../static/css/weui.min.css">
+    <link rel="stylesheet" href="../static/css/jquery-weui.min.css">
+</head>
+<body>
+<div class="pagebg"></div>
+<div class="pagemain">
+    <div class="weui-tabbar .tabbar744192" id="tabbar744192" style="width: 100%;">
+        <a href="address" page="address" class="weui-tabbar__item ajax-page  weui-bar__item_on "> <img src="/static/img/icon1.png" img="/static/img/icon1c.png" selectimg="/static/img/icon1.png" alt="" class="weui-tabbar__icon" style="">
+            <p class="weui-tabbar__label weui-tabbar__label744192">预约</p>
+        </a>
+        <a href="empty" page="empty" class="weui-tabbar__item ajax-page "> <img src="/static/img/icon3c.png" img="/static/img/icon3c.png" selectimg="/static/img/icon3.png" alt="" class="weui-tabbar__icon" style="">
+            <p class="weui-tabbar__label weui-tabbar__label744192">账户</p>
+        </a>
+        <style type="text/css">
+            .tabbar744192 {}
+
+            .weui-tabbar__label744192 {
+                color: #999999 !important;
+            "
+
+            }
+
+            .weui-tabbar__item.weui-bar__item_on .weui-tabbar__label744192 {
+                color: #09bb07 !important;
+            }
+        </style>
+    </div>
+    <div class="" style="text-align: center; vertical-align: middle; font-family: 楷体; font-size: 30px;"> 场馆预约 </div>
+    <form class="form-horizontal  ui-sortable formtable_551056" data-listhref="" data-ride="form" role="form" id="form551056" name="table_551056" data-url="/data/data.html" action="/data/save.html" enctype="multipart/form-data" method="post" data-bv-group=".weui-cell" data-bv-container="#errorsform551056" data-bv-feedbackicons-valid="weui-icon-success" data-bv-feedbackicons-invalid="weui-icon-warn" data-bv-feedbackicons-validating="weui-icon-warn">
+        <div class="row-form clearfix ">
+            <div class="">
+                <div class="weui-cell">
+                    <div class="weui-cell__hd   "><label class="weui-label" for="831802">场馆</label></div>
+                    <div class="weui-cell__bd"> <select name="college" class="weui-input weui-noborder" data-load="1" data-ride="select" placeholder="请选择场馆" id="831802">
+                        <option value="">请选择</option>
+
+                        <option value="0" data-value="0" selected="selected" data-checked="checked" data-title="请选择场馆">请选择场馆</option>
+
+                        <option value="1" data-value="1" data-title="乒乓球馆">乒乓球馆</option>
+
+                        <option value="2" data-value="2" data-title="篮球馆">篮球馆</option>
+
+                        <option value="3" data-value="3" data-title="羽毛球馆">羽毛球馆</option>
+
+                    </select> </div>
+                </div>
+                <div class="weui-cell">
+                    <div class="weui-cell__hd"><label class="weui-label" for="142725">选择入馆时间</label></div>
+                    <div class="weui-cell__bd"> <input reg="请输入正则" data-ride="datetime" start="1900-01-01" end="2050-01-01" value="" type="1" placeholder="请选择时间" name="intime" id="142725" class="weui-input "> </div>
+                </div>
+                <div class="weui-cell">
+                    <div class="weui-cell__hd"><label class="weui-label  " for="763109">入馆时长</label></div>
+                    <div class="weui-cell__bd"> <input type="text" placeholder="请输入入馆时长不得超过两小时" value="" name="time" id="763109" class="weui-input  weui-noborder"> </div>
+                </div>
+                <div class="weui-form">
+                    <div class="weui-form-item"> <a data-index="9865270" href="empty" class="weui-btn    weui-btn_primary  ">预约</a> </div>
+                </div>
+            </div>
+        </div> <input type="hidden" class="hide" name="dashboardId" value="34686"> <input type="hidden" class="hide" name="formId" value="551056"> <input type="hidden" class="hide" name="tableName" value="table_551056"> <input type="hidden" class="hide" name="id" value="">
+        <div id="errorsform551056" class="hide"></div>
+    </form>
+</div>
+</body>
+</html>
